@@ -5,41 +5,44 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
-/*.navbar {
-	height: 70px;
-	background-color:#000!important;
-	/*background-position:fixed;*/
-}*/
+
+/*---------- NAVBAR ------------*/
+.navbar {
+	/*height: 75px;*/
+}
 .navbar ul li a {
 	color: green;
 	font-size: 15px;
 }
 .navbar a:hover {
-	color: red!important;
-	border-bottom: 1px;
-	border-bottom:solid;
-	position: relative;
-	border-bottom: fixed;
-	font-size: 15px;
-	font-kerning: 2px;
+	color: white!important;
+	background-color: #c91d12;
+/*	border-bottom: 1px;
+	border-bottom:solid;*/
+	/*position: relative;
+	border-bottom: fixed;*/
+	/*font-size: 15px;
+	font-kerning: 2px;*/
 }
 .navbar li {
 	margin-right: 20px;
+	text-transform: uppercase;
 }
 .navbar ul{
 	/*margin-left: 400px;*/
-	margin-left: 350px;
+	margin-left: 150px;
 }
 
 
-/*WELCOME*/
+
+/*---------------- WELCOME -----------------*/
 .welcome {
 	margin-top: -23px;
 	position: relative;
 }
 .welcome img{
 	width: 100%;
-	height: 595px;
+	height: 420px;
 }
 
 #bgchoice {
@@ -47,6 +50,67 @@ body {
 }
 
 
+
+/*------------------ SERVICE -------------------*/
+.service {
+	padding-bottom: 20px;
+}
+.service h2 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.service img {
+	width: 100%;
+	height: 300px;
+}
+.service .card {
+	margin-bottom: 20px;
+}
+
+
+
+/*--------------- UPCOMING EVENT -----------------*/
+.upcoming_event {
+	padding-bottom: 20px;
+}
+.upcoming_event h2 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+} 
+.upcoming_event .card {
+	margin-bottom: 20px;
+}
+
+
+
+/*--------------- NEWS -----------------*/
+.news {
+	padding-bottom: 20px;
+}
+.news h2 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+} 
+.news .card {
+	margin-bottom: 20px;
+}
+
+
+/*--------------- NEWS -----------------*/
+.rules {
+	padding-bottom: 20px;
+}
+.rules h2 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+} 
+.rules .card {
+	margin-bottom: 20px;
+}
 
 
 
@@ -162,10 +226,9 @@ body {
   margin-bottom: 0;
 }
 
-/*
- * Footer
- */
 
+
+/*-------------- Footer -------------*/
 .footer {
   padding: 2.5rem 0;
   color: #999;
@@ -181,16 +244,63 @@ body {
 }
 .footer p a{
 	;
+}
+.footer .newsletter {
+	padding-top: 10px;
+	margin-left: 50px;
+}
+.footer input {
+	width: 200px;
+}
+.footer .btn {
+	margin-top: -95px;
+	margin-left: 195px;
+}
 
+.footer .facebook:hover {
+	opacity: 1;
+	color: #3b5998 !important;
+}
+.footer .facebook {
+	opacity: 1;
+}
+.footer .twitter:hover {
+	opacity: 1;
+	color: #1DA1F2;
+}
+.footer .twitter {
+	opacity: 0.8;
+	margin-left: 20px;
+}
+
+.footer .pinterest {
+	opacity: 0.8;
+	margin-left: 20px;
+}
+.footer .pinterest:hover {
+	opacity: 1;
+	color: #BD081C;
+}
+
+.footer .linkedin:hover {
+	opacity: 1;
+	color: #0077B5;
+}
+.footer .linkedin {
+	opacity: 0.8;
+	margin-left: 20px;
 }
 
 
 
 
+/*------------ RESPONSIVE DEVICE ------------------*/
 @media only screen and (max-width: 500px) {
     body {
         /*background-color: lightblue;*/
     }
+
+    /*--------- NAVBAR ----------*/
     .navbar ul li a {
 		color: green;
 		font-size: 15px;
@@ -214,8 +324,42 @@ body {
 	.hideme {
 		display: none;
 	}
-	.center {
-		margin-left: 80px;
+
+
+	/*-------- SERVICE --------*/
+	.service .card .card-title {
+		text-align: center;
 	}
 
+
+	/*-------- UPCOMING EVENT --------*/
+	.upcoming_event .card .card-title {
+		text-align: center;
+	}
+
+
+	/*------------ NEWS ---------------*/
+	.news .card .card-title {
+		text-align: center;
+	}
+
+
+	/*------------ RULES ---------------*/
+	.rules .card .card-title {
+		text-align: center;
+	}
+
+
+	/*------------- FOOTER ---------------*/
+	.footer .newsletter {
+		padding-top: 10px;
+		margin-left: 30px;
+	}
+	.footer input {
+		width: 200px;
+	}
+	.footer .btn {
+		margin-top: 0px;
+		margin-left: -15px;
+	}
 }
