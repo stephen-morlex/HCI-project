@@ -6,22 +6,25 @@ body {
   margin: 0;
   padding: 0;
 }
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
-}
+
+/**/
 
 /*---------- NAVBAR ------------*/
 .navbar {
+	color: white;
 	/*height: 75px;*/
+	background-color: black;
 }
 .navbar ul li a {
-	color: green;
+	color: white !important;
 	font-size: 15px;
+	
 }
 .navbar a:hover {
 	color: white!important;
-	background-color: #c91d12;
+	background-color: #d9534f;
+	border: inset !important 1px;
+	border-radius: 2px;
 /*	border-bottom: 1px;
 	border-bottom:solid;*/
 	/*position: relative;
@@ -30,13 +33,31 @@ body {
 	font-kerning: 2px;*/
 }
 .navbar li {
-	margin-right: 20px;
+	margin-right: 15px;
 	text-transform: uppercase;
 }
 .navbar ul{
 	/*margin-left: 400px;*/
 	margin-left: 150px;
 }
+
+.dropdown-menu a{
+	background-color: black;
+}
+/*specail*/
+.special{
+	color: white;
+	margin-top: 10px;
+}
+.special i{
+	color: white;
+	float: left;
+	padding-right: 10px;
+	
+}
+
+
+/*end of special*/
 /*breadcrumb*/
 .container1 {
 	margin:5em;
@@ -435,13 +456,10 @@ body {
 		font-size: 15px;
 	}
 	.navbar a:hover {
-		color: red!important;
-		border-bottom: 1px;
-		border-bottom:solid;
-		position: relative;
-		border-bottom: fixed;
-		font-size: 15px;
-		font-kerning: 2px;
+	color: white!important;
+	background-color: #d9534f;
+	border: inset !important 1px;
+	border-radius: 2px;
 	}
 	.navbar li {
 		margin-right: 20px;
@@ -486,6 +504,7 @@ body {
 	}
 	.footer input {
 		width: 200px;
+		
 	}
 	.footer .btn {
 		margin-top: 0px;
