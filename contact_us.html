@@ -1,5 +1,4 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -34,7 +33,7 @@
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2 " type="text" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-danger my-2 my-sm-0 hideme" type="submit"><i class="fa fa-search" aria-hidden="true"></i>
-</button>
+              </button>
             </form>
           </li>
           <li class="nav-item">
@@ -82,11 +81,10 @@
             </ul>
           </li>
 
-
           <li class="nav-item">
             <div class="btn-group ">
               <button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fa fa-globe" aria-hidden="true"></i> 
+                <i class="fa fa-globe" aria-hidden="true"></i> <!-- Language -->
               </button>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">Arabic</a>
@@ -100,126 +98,115 @@
               </div>
             </div>
           </li>
+
            <li>
             <i class="fa fa-microphone" style="color: white; margin: 10px; padding-left: 15px;" aria-hidden="true" title="microphone"></i>
             <i class="fa fa-plus" style="color: white;" aria-hidden="true"></i>
-            <i class="fa fa-minus" style="color: white; " aria-hidden="true"></i>
+            <i class="fa fa-minus" style="color: white;" aria-hidden="true"></i>
           </li>
         </ul>
         
-      </div>
-    </nav>
+      </div><!-- end of collapse -->
+    </nav><!-- end of navbar -->
     <!-- END OF HEADER -->
 
+    <!-- Breadcrumb -->
+  <div class="container1">
 
-    <!-- -------------------- SERVICE ------------------------ -->
-        <div class="upcoming_event">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <h2>Upcoming events</h2>
-              </div>
-            </div>
-            <div class="wow fadeInDown" >
 
-            <div class="row">
-              <div class="col-sm-4 col-md-4 col-lg-4 wow bounceInLeft">
-                <div class="card" style="width: 100%;">
-                  <a href="" ><img class="card-img-top" src="images/merry-christmas.jpg" alt="Card image cap"></a>
-                  <div class="card-body">
-                    <h4 class="card-title">Merry Christmas</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <p>
-                      <a href="upcoming_event.html">
-                        <button type="button" class="btn btn-danger upcoming_center">
-                          <i class="fa fa-link" aria-hidden="true"></i>
-                        Read more
-                        </button>
-                      </a>
-                    </p>
-                  </div>
-                  <div class="card-footer text-muted">
-                    25 | 12 | 2017
-                  </div>
-                </div><!-- end of card -->
-              </div><!-- end of col -->
+ <ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item active"><a href="#">Contact Us</a></li>
+</ol>
+</div>
+    <!-- end of breadcrumb -->
 
-              <div class="col-sm-4 col-md-4 col-lg-4 wow fadeInDown">
-                <div class="card" style="width: 100%;">
-                  <a href=""><img class="card-img-top" src="images/Happy-New-Year.jpg" height="215px;" alt="Card image cap"></a>
-                  <div class="card-body">
-                    <h4 class="card-title">Hapy New Year</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <p>
-                      <a href="upcoming_event.html">
-                        <button type="button" class="btn btn-danger upcoming_center">
-                          <i class="fa fa-link" aria-hidden="true"></i>
-                        Read more
-                        </button>
-                      </a>
-                    </p>
-                  </div>
-                  <div class="card-footer text-muted">
-                    1 | 1 | 2018
-                  </div>
-                </div><!-- end of card -->
-              </div><!-- end of col -->
+    <!-- contact parts -->
+    <div class="container">
 
-              <div class="col-sm-4 col-md-4 col-lg-4">
-                <div class="card wow fadeInDown" style="width: 100%;">
-                  <a href=""><img class="card-img-top" src="images/boxing-day.jpg" height="215px;" alt="Card image cap"></a>
-                  <div class="card-body">
-                    <h4 class="card-title">Boxing Day</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <p>
-                      <a href="upcoming_event.html">
-                        <button type="button" class="btn btn-danger upcoming_center">
-                          <i class="fa fa-link" aria-hidden="true"></i>
-                        Read more
-                        </button>
-                      </a>
-                    </p>
-                  </div>
-                  <div class="card-footer text-muted">
-                    27 | 12 | 2017
-                  </div>
-                </div><!-- end of card -->
-              </div><!-- end of col -->
 
-            </div><!-- end of row -->
+<div class="contact-form">
+  <h1 class="h2">Please Contact Us Here</h1><hr style="color: red;">
+  
+ <form method="post" role="form" class="wow fadeInDown">
+   <div class="controls">
+       <div class="form-group">
+      <p>Full Name</p>
+      <input type="text" name="name" class="form-input-text form-control"  required="required">                              
+     </div>
+     
+    <div class="form-group">
+       <p >Email</p>
+       <input type="email" name="email" class="form-input-text form-control"  required="required">                           
+     </div>
+     
+     <div class="form-group">
+       <p>Number</p>
+       <input type="text" name="name" class="form-input-text form-control"  required="required">                       
+    </div>
+    
+         <div class="form-group">
+       <p>Message</p>
+       <textarea name="message" class="form-input-text form-control" rows="4" required="required"></textarea>
+        </div>
+        <div class="send-button bottom-margin">
+      <button type="submit" class="btn btn-outline-danger">SEND MESSAGE</button>
+        </div>
+    </div>
+   </form>
+</div>
+</div>
+
+  <aside class="col-sm-3 col-md-3 col-lg-4 ml-sm-auto blog-sidebar">
             
-          </div>
-        </div>
-        </div>
-    <!-- -------------------- END OF SERVICE ------------------------ -->
+      <div class="sidebar-module">
+        <div class="contact_infor">
+          <h4>Contact us</h4><hr>
+              <ul>
+              <i class="fa fa-phone" aria-hidden="true">&nbsp&nbsp</i> 0700000000<br>
+              <i class="fa fa-envelope-o" aria-hidden="true">&nbsp&nbsp</i> cwp@gmail.com<br>
+              <i class="fa fa-home" aria-hidden="true">&nbsp&nbsp</i> Karen, Nairobi-Kenya<br>
+              </ul>
+           </div>
+     </div>
+        </aside><!-- /.blog-sidebar -->
 
 
-   
-   <!-- -------------------- Footer -------------------->
+
+
+
+
+    <!-- end of the contact  -->
+
+
+
+    
+   <!-- -------------------- footer -------------------->
     <div class="footer">
       <div class="container">
         <div class="row">
           <div class="col-sm-4 col-md-4 col-lg-4">
-            <div class="contact_info"> 
+            <div class="contact_info  "> 
               <h4>Contact us</h4>
               <ul>
-              <i class="fa fa-home" aria-hidden="true"></i>Your location<br>
-              <i class="fa fa-envelope-o" aria-hidden="true"></i> Your mail<br>
-              <i class="fa fa-phone" aria-hidden="true"></i> Your phone number<br>
+              <i class="fa fa-phone" aria-hidden="true"></i> 0700000000<br>
+              <i class="fa fa-envelope-o" aria-hidden="true"></i> cwp@gmail.com<br>
+              <i class="fa fa-home" aria-hidden="true"></i> Karen, Nairobi-Kenya<br>
               </ul>
             </div>
           </div><!-- end of col -->
+
           <div class="col-sm-4 col-md-4 col-lg-4">
             <div> 
               <h4>About us</h4>
               <ul>
-              <i class="fa fa-square-o" aria-hidden="true"></i>About Us<br>
-              <i class="fa fa-square-o" aria-hidden="true"></i> Service<br>
-              <i class="fa fa-square-o" aria-hidden="true"></i> Term & Condition<br>
-              </ul>              
-
+                <i class="fa fa-square-o" aria-hidden="true"></i> Service<br>
+                <i class="fa fa-square-o" aria-hidden="true"></i> About Us<br>
+                <i class="fa fa-square-o" aria-hidden="true"></i> Term & Condition<br>
+              </ul>
             </div>
           </div><!-- end of col -->
+
           <div class="col-sm-4 col-md-4 col-lg-4">
             <div> 
               <h4>Stay in touch</h4>
@@ -240,10 +227,10 @@
           </div> <!-- end of col -->
         </div><br>
         <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12">
-          ©2017. All Rights Reserved
-        </div>
-        </div>
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            ©2017. All Rights Reserved
+          </div>
+        </div><!-- end of row -->
       </div>
     </div>
  
@@ -255,6 +242,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 
   </body>
 </html>
