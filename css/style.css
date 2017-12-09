@@ -352,73 +352,58 @@ body {
 	margin-left: 20px;
 }
 
-/*contact page css*/
+/*----------contact page css------------*/
+.contact_infos {
+	/*padding: 0px 0 30px;*/
+	text-align: center;
+	/*background-color: #F5F5F5;*/
 
-.contact-form{
-	/*background-color: black;*/
-	width:50%;
-	margin:0 auto;
-	padding: 25px;
-	margin: 15px;
-	margin-top:1px;
-	/*color: white;*/
-	border: outset 1px;
-	border-radius: 2px;
 }
-.contact-form .h2{
-	margin: 20px;
-	font-size: 30px;
-	font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
-	color: red;
+
+.contact_infos h2,
+.contact_infos h4 {
+	color: #4c4c4c;
+	margin: 20px 0 20px;
 }
-.contact-form .form-control{
-	border:none;
-	box-shadow:none;
-	border-radius:0;
-	border-bottom: 1px solid #cfd8dc;
-	transition: 1s ease;
-	font-weight: bold;
-	}
-	.contact-form .form-control:focus{
-	transition: 1s ease;
-	border-bottom: 1px solid #2abfcc;
-	}
-	.contact-main  .contact-main-title h2{
-	margin-top:0;
-	}
+.contact_infos p {
+	color: #737373;
+	font-size: 14px;
+	padding-bottom: 40px;
+}
 
-	.contact-form .send-msg{
-	color:#2abfcc;
-	border:1px solid #2abfcc;
-	height:40px;
-	background-color:transparent red;
-	transition: all 0.8s ease-out;
-	margin-top:40px;
-	}
-
-	.contact-form .send-msg:hover{
-	color:#fff;
-	border:1px solid #fff;
-	height:40px;
-	background-color:#2abfcc;
-	}
-	.contact_infor{
-		margin-top: -650px;
-		border: inset 1px;
-		border-radius: 2px;
-	
-	}
-	.contact_infor h4{
-	margin: 20px;
+.contact_infos i {
+	height: 80px;
+	width: 80px;
 	font-size: 30px;
-	font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
-	color: red;
-	}
-	.contact_infor ul  i{
-		margin-top: 15px;
-		size: 50px;
-	}
+	padding: 25px 20px;
+	border-radius: 50px;
+	background-color: #d9534f;
+	color: #ffffff;
+}
 
+.contact_infos i:hover {
+	background-color: #ffffff;
+	color: #d9534f;
+}
+
+.contact_infos .packages {
+	padding: 30px;
+	/*border: 10px solid #F5F5F5;*/
+	background-color: #fff;
+	margin-top: 20px;
+}
+.contact_form {
+	padding: 50px 0 80px;
+	text-align: center;
+}
+
+.contact_form h2 {
+	color: #737373;
+}
+
+.contact_form textarea {
+	height: 125px;
+}
 /*end of contact page css*/
 
 
@@ -486,6 +471,7 @@ body {
 	}
 	.footer input {
 		width: 200px;
+		margin-left: 60px;
 	}
 	.footer .btn {
 		margin-top: 0px;
