@@ -14,6 +14,7 @@ body {
 	color: white;
 	/*height: 75px;*/
 	background-color: black;
+	opacity: 0.8;
 }
 .navbar ul li a {
 	color: white !important;
@@ -189,6 +190,24 @@ body {
 .Home-content{
 	/*background-color: grey;*/
 }
+.card .text-center{
+width: 100%;
+position: relative;
+top: 50px;
+}
+.card-body img{
+	position: relative;
+	width: 230px;
+	height: 230px;
+	top: -10px;
+	left: -12px;
+	
+}
+.media-body img {
+	width: 100%;
+	height: 350px;
+
+}
 #upcoming{
 	background-color: #f5f5f5;
 	padding: 15px;
@@ -308,7 +327,40 @@ body {
   margin-bottom: 0;
 }
 
+/*pagination*/
 
+.Page {
+	color: black;
+	background-color: red;
+}
+
+/*end of pagination*/
+
+
+/*fags css*/
+
+.faq {
+	padding: 5px;
+}
+.faq_header{
+	font-size: 70px;
+	color:#d9534f;
+}
+.faq .col{
+	background-color: #F5F5F5;
+	padding: 10px;
+	border: solid 1px silver ;
+	border-radius: 4px;
+	color: black;
+	 font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
+
+}
+#btn{
+	margin-left: 1000px;
+	margin-top: -40;
+}
+
+/*end f faqs*/
 
 /*-------------- Footer -------------*/
 .footer {
@@ -456,6 +508,21 @@ body {
 	.hideme {
 		display: none;
 	}
+	/*content card*/
+
+	.media-body 
+	{
+		
+	}
+
+	.media-body img {
+
+	width: 100%;
+	height: 350px;
+	right: 150px;
+	margin-right: 150px;
+
+}
 
 
 	/*-------- SERVICE --------*/
@@ -481,6 +548,35 @@ body {
 		text-align: center;
 	}
 
+   /*faqs*/
+
+    .faq {
+	padding: 5px;
+}
+.faq_header{
+	font-size: 70px;
+	color:#d9534f;
+}
+.faq .col{
+	background-color: #F5F5F5;
+	padding: 10px;
+	border: solid 1px silver ;
+	border-radius: 4px;
+	color: black;
+	 font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
+
+}
+#btn{
+	margin-left: 5px;
+	margin-top: -10px;
+	position: absolute;
+	top: 130px;
+	right: 5px;
+}
+
+   /*end of faqs*/
+   
+   
 
 	/*------------- FOOTER ---------------*/
 	.footer .newsletter {
