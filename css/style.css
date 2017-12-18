@@ -142,6 +142,29 @@ body {
 
 
 
+
+/*-------------- ABOUT US -------------------*/
+.about_us {
+	padding: 10px;
+}
+.about_us h2{ 
+	color: #d9534f;
+	padding-top: -85px;
+}
+.about_us p {
+	text-align: justify;
+}
+.about_us img {
+	/*border: 50px solid red;*/
+    border-radius: 70px 70px 70px 70px;
+}
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
 /*--------------- UPCOMING EVENT -----------------*/
 .upcoming_event {
 	padding-bottom: 20px;
