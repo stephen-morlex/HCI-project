@@ -142,6 +142,29 @@ body {
 
 
 
+
+/*-------------- ABOUT US -------------------*/
+.about_us {
+	padding: 10px;
+}
+.about_us h2{ 
+	color: #d9534f;
+	padding-top: -85px;
+}
+.about_us p {
+	text-align: justify;
+}
+.about_us img {
+	/*border: 50px solid red;*/
+    /*border-radius: 70px 70px 70px 70px;*/
+}
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
 /*--------------- UPCOMING EVENT -----------------*/
 .upcoming_event {
 	padding-bottom: 20px;
@@ -181,7 +204,7 @@ body {
 	padding-bottom: 20px;
 } 
 .rules .card {
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 
@@ -376,6 +399,12 @@ top: 50px;
 .footer p{
   margin-bottom: 0;
 }
+.footer ul{
+  text-align: center;
+}
+.footer h4{
+  margin-left: 35px;
+}
 .footer p a{
 	;
 }
@@ -385,10 +414,11 @@ top: 50px;
 }
 .footer input {
 	width: 200px;
+	margin-left: 20px;
 }
 .footer .btn {
 	margin-top: -95px;
-	margin-left: 195px;
+	margin-left: 230px;
 }
 
 .footer .facebook:hover {
@@ -397,6 +427,7 @@ top: 50px;
 }
 .footer .facebook {
 	opacity: 1;
+	margin-left: 40px;
 }
 .footer .twitter:hover {
 	opacity: 1;
@@ -589,7 +620,7 @@ top: 50px;
 	}
 	.footer .btn {
 		margin-top: 0px;
-		margin-left: -15px;
+		margin-left: 0px;
 	}
 
 }
