@@ -417,8 +417,11 @@ top: 50px;
 	margin-left: 20px;
 }
 .footer .btn {
-	margin-top: -95px;
+	margin-top: -97px;
 	margin-left: 230px;
+}
+.footer .submit {
+	margin-top: -54px;
 }
 
 .footer .facebook:hover {
@@ -583,27 +586,27 @@ top: 50px;
 
     .faq {
 	padding: 5px;
-}
-.faq_header{
-	font-size: 70px;
-	color:#d9534f;
-}
-.faq .col{
-	background-color: #F5F5F5;
-	padding: 10px;
-	border: solid 1px silver ;
-	border-radius: 4px;
-	color: black;
-	 font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
+	}
+	.faq_header{
+		font-size: 70px;
+		color:#d9534f;
+	}
+	.faq .col{
+		background-color: #F5F5F5;
+		padding: 10px;
+		border: solid 1px silver ;
+		border-radius: 4px;
+		color: black;
+		 font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
 
-}
-#btn{
-	margin-left: 5px;
-	margin-top: -10px;
-	position: absolute;
-	top: 130px;
-	right: 5px;
-}
+	}
+	#btn{
+		margin-left: 5px;
+		margin-top: -10px;
+		position: absolute;
+		top: 130px;
+		right: 5px;
+	}
 
    /*end of faqs*/
    
